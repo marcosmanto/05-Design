@@ -50,6 +50,7 @@ h1 {
   font-size: 44px;
   line-height: 1.1;
   letter-spacing: -1px;
+  /* text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.15); */
 }
 
 h2 {
@@ -79,6 +80,7 @@ h3 {
     font-weight: $fw-semibold;
     display: inline-block;
     padding: 1em 2em;
+    border-radius: 100px;
   }
 
   &:hover,
@@ -94,6 +96,10 @@ h3 {
     font-size: 14px;
     padding: 0.5em 0.75em;
   }
+}
+
+img {
+  border-radius: 12px;
 }
 
 /* ------------------------ */
@@ -146,6 +152,7 @@ img {
     background-color: $primary;
     color: $white;
     padding: 24px;
+    border-radius: 12px;
   }
 
   &-box {
@@ -166,6 +173,17 @@ img {
 }
 
 /* CHAIRS */
+
+.chair {
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+
+  img {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+
 .chair-box {
   padding: 24px;
 }
